@@ -1,8 +1,8 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("scripts/spam_model.pkl")
-vectorizer = joblib.load("scripts/tfidf_vectorizer.pkl")
+model = joblib.load("spam_model.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 st.title("📧 Spam Message Classifier")
 
